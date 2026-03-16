@@ -25,10 +25,10 @@ params = st.query_params
 is_zizah = (params.get("mode", "") == "zizah")
 
 # ── GANTI NOMOR DANA LO DI SINI ──
-DANA_NUMBER = "08xxxxxxxxxx"
+DANA_NUMBER = "082298180077"
 
-DANA_DEEPLINK = f"dana://transfer?target={DANA_NUMBER}"
-DANA_FALLBACK = f"https://link.dana.id/transfer?target={DANA_NUMBER}"
+DANA_DEEPLINK = f"dana://transfer?target={082298180077}"
+DANA_FALLBACK = f"https://link.dana.id/transfer?target={082298180077}"
 
 st.markdown("""
 <style>
