@@ -165,7 +165,7 @@ if is_zizah:
     </div>
     """, unsafe_allow_html=True)
 
-    zizah_dana = "08xxxxxxxxxx"  # ← GANTI NOMOR DANA LO DI SINI
+    zizah_dana = "082298180077"  # ← GANTI NOMOR DANA LO DI SINI
 
     st.markdown(f"""
     <div class="zizah-dana-box">
